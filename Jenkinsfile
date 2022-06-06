@@ -20,7 +20,7 @@ pipeline {
     }
        post {
         always {
-             echo 'The Pipeline failed :(';
+             echo 'pipeline finished';
         }
     }
 }
