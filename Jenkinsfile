@@ -8,12 +8,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo '2022-06-06'
+                echo '2022-06-05'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..!'
+                echo 'Testing...'
             }
         }
         stage('Deploy') {
